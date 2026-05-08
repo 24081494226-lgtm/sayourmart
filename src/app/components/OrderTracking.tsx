@@ -2,7 +2,11 @@ import { ArrowLeft, Package, CheckCircle, Truck, Home, MessageCircle, Star, Sear
 import { Button } from './ui/button';
 import { CartItem, Order } from '../App';
 import { useEffect, useState } from 'react';
+<<<<<<< HEAD
 import { toast } from 'sonner';
+=======
+import { toast } from 'sonner@2.0.3';
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
 import { Toaster } from './ui/sonner';
 
 interface OrderTrackingProps {

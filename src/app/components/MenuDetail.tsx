@@ -19,10 +19,13 @@ import image_8937f82399b8cfaa09cf64a16025a083fa220631 from 'figma:asset/8937f823
 import image_b77cb6cbd47949991c6fe75c43f887d268feb4d7 from 'figma:asset/b77cb6cbd47949991c6fe75c43f887d268feb4d7.png';
 import image_c11264d4e508e1a7c1c5e0bf10ed78a7dc139800 from 'figma:asset/c11264d4e508e1a7c1c5e0bf10ed78a7dc139800.png';
 import image_603797fb557af7c252d4ab417b14b2124fdf0394 from 'figma:asset/603797fb557af7c252d4ab417b14b2124fdf0394.png';
+<<<<<<< HEAD
 import telurBaladoImage from '../../imports/telur_balado.jpeg';
 import ayamSuwirImage from '../../imports/ayam_suwir.jpeg';
 import pempekImage from '../../imports/pempek.jpeg';
 import taichanImage from '../../imports/taichan.jpeg';
+=======
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
 import { ArrowLeft, Clock, Users, ShoppingCart } from 'lucide-react';
 import { Button } from './ui/button';
 import { CartItem } from '../App';
@@ -43,7 +46,11 @@ const menusData: Record<string, any> = {
     servings: 2,
     ingredients: [
       { id: 101, name: 'Nasi putih', amount: '2 piring', price: 5000, weight: '400 gr', calories: 260, image: image_f723a10a7576e7e076e7a3100012f783e66b7b0c },
+<<<<<<< HEAD
       { id: 8, name: 'Telur ayam', amount: '2 butir', price: 3500, weight: '2 butir', calories: 148, image: 'https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?w=400' },
+=======
+      { id: 8, name: 'Telur ayam', amount: '2 butir', price: 6000, weight: '2 butir', calories: 148, image: 'https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?w=400' },
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
       { id: 6, name: 'Daging ayam', amount: '100g', price: 10000, weight: '100 gr', calories: 165, image: image_b77cb6cbd47949991c6fe75c43f887d268feb4d7 },
       { id: 13, name: 'Bawang putih', amount: '3 siung', price: 2000, weight: '15 gr', calories: 22, image: image_603797fb557af7c252d4ab417b14b2124fdf0394 },
       { id: 14, name: 'Bawang merah', amount: '3 siung', price: 2000, weight: '15 gr', calories: 6, image: image_c11264d4e508e1a7c1c5e0bf10ed78a7dc139800 },
@@ -86,7 +93,11 @@ const menusData: Record<string, any> = {
     time: '45 menit',
     servings: 3,
     ingredients: [
+<<<<<<< HEAD
       { id: 5, name: 'Daging sapi', amount: '500g', price: 88000, weight: '500 gr', calories: 1250, image: image_8937f82399b8cfaa09cf64a16025a083fa220631 },
+=======
+      { id: 5, name: 'Daging sapi', amount: '500g', price: 50000, weight: '500 gr', calories: 1250, image: image_8937f82399b8cfaa09cf64a16025a083fa220631 },
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
       { id: 105, name: 'Santan', amount: '500ml', price: 8000, weight: '500 ml', calories: 230, image: image_97b9de3c913f629a6984bb5ce03562fa6b1da35f },
       { id: 106, name: 'Bumbu rendang', amount: '1 pack', price: 10000, weight: '100 gr', calories: 50, image: image_97b9de3c913f629a6984bb5ce03562fa6b1da35f },
       { id: 15, name: 'Cabe merah', amount: '5 buah', price: 5000, weight: '50 gr', calories: 159, image: image_01c67b151870856c1a3ae0da3a3287fdc79cb5d6 },
@@ -105,6 +116,7 @@ const menusData: Record<string, any> = {
     ]
   },
   'menu-4': {
+<<<<<<< HEAD
     name: 'Ayam Suwir',
     image: ayamSuwirImage,
     time: '20 menit',
@@ -123,6 +135,29 @@ const menusData: Record<string, any> = {
       'Masukkan ayam suwir, aduk rata',
       'Tambahkan kecap manis, masak hingga meresap',
       'Sajikan hangat',
+=======
+    name: 'Soto ayam',
+    image: image_a165bb4f4874b4988e080d0d7c891bae646092ac,
+    time: '35 menit',
+    servings: 2,
+    ingredients: [
+      { id: 6, name: 'Daging ayam', amount: '300g', price: 12000, weight: '300 gr', calories: 495, image: image_b77cb6cbd47949991c6fe75c43f887d268feb4d7 },
+      { id: 108, name: 'Kunyit', amount: '2 cm', price: 2000, weight: '10 gr', calories: 4, image: 'https://images.unsplash.com/photo-1665594051407-7385d281ad76?w=400' },
+      { id: 13, name: 'Bawang putih', amount: '3 siung', price: 2000, weight: '15 gr', calories: 22, image: image_603797fb557af7c252d4ab417b14b2124fdf0394 },
+      { id: 14, name: 'Bawang merah', amount: '4 siung', price: 3000, weight: '20 gr', calories: 8, image: image_c11264d4e508e1a7c1c5e0bf10ed78a7dc139800 },
+      { id: 109, name: 'Serai', amount: '2 batang', price: 1000, weight: '20 gr', calories: 2, image: 'https://images.unsplash.com/photo-1665594051407-7385d281ad76?w=400' },
+      { id: 110, name: 'Daun salam', amount: '3 lembar', price: 1000, weight: '5 gr', calories: 1, image: 'https://images.unsplash.com/photo-1665594051407-7385d281ad76?w=400' },
+      { id: 111, name: 'Kentang', amount: '2 buah', price: 4000, weight: '200 gr', calories: 154, image: 'https://images.unsplash.com/photo-1665594051407-7385d281ad76?w=400' },
+      { id: 8, name: 'Telur rebus', amount: '2 butir', price: 6000, weight: '2 butir', calories: 148, image: 'https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?w=400' },
+    ],
+    steps: [
+      'Rebus ayam hingga matang, suwir-suwir',
+      'Haluskan kunyit, bawang putih, bawang merah',
+      'Tumis bumbu halus, serai, dan daun salam hingga harum',
+      'Masukkan ke dalam kaldu ayam',
+      'Tambahkan kentang yang sudah dikukus',
+      'Sajikan dengan telur rebus, taoge, dan seledri',
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
     ]
   },
   // Indonesian
@@ -149,6 +184,7 @@ const menusData: Record<string, any> = {
     ]
   },
   'indo-2': {
+<<<<<<< HEAD
     name: 'Telur Balado',
     image: telurBaladoImage,
     time: '15 menit',
@@ -189,10 +225,53 @@ const menusData: Record<string, any> = {
       'Bakar sate hingga matang',
       'Haluskan cabai rawit, jeruk nipis, dan kecap asin untuk sambal',
       'Siram sate dengan sambal',
+=======
+    name: 'Pecel',
+    image: 'https://images.unsplash.com/photo-1564185722618-ae3ffa1ac5aa?w=600',
+    time: '15 menit',
+    servings: 1,
+    ingredients: [
+      { id: 2, name: 'Kangkung', amount: '100g', price: 5000, weight: '100 gr', calories: 8, image: 'https://images.unsplash.com/photo-1591518010036-0d8684181df5?w=400' },
+      { id: 1, name: 'Bayam segar', amount: '100g', price: 6000, weight: '100 gr', calories: 23, image: 'https://images.unsplash.com/photo-1683536905403-ea18a3176d29?w=400' },
+      { id: 114, name: 'Kacang panjang', amount: '50g', price: 2000, weight: '50 gr', calories: 16, image: 'https://images.unsplash.com/photo-1564185722618-ae3ffa1ac5aa?w=400' },
+      { id: 115, name: 'Tauge', amount: '50g', price: 2000, weight: '50 gr', calories: 15, image: 'https://images.unsplash.com/photo-1564185722618-ae3ffa1ac5aa?w=400' },
+      { id: 116, name: 'Bumbu pecel', amount: '1 pack', price: 5000, weight: '50 gr', calories: 150, image: 'https://images.unsplash.com/photo-1564185722618-ae3ffa1ac5aa?w=400' },
+      { id: 117, name: 'Kacang tanah', amount: '50g', price: 3000, weight: '50 gr', calories: 285, image: 'https://images.unsplash.com/photo-1564185722618-ae3ffa1ac5aa?w=400' },
+    ],
+    steps: [
+      'Rebus kangkung, bayam, kacang panjang, dan tauge',
+      'Tiriskan sayuran',
+      'Haluskan bumbu pecel dengan kacang tanah',
+      'Siram sayuran dengan bumbu pecel',
+      'Sajikan dengan kerupuk',
+    ]
+  },
+  'indo-3': {
+    name: 'Sayur lodeh',
+    image: 'https://images.unsplash.com/photo-1700150618387-3f46b6d2cf8e?w=600',
+    time: '20 menit',
+    servings: 2,
+    ingredients: [
+      { id: 118, name: 'Labu siam', amount: '200g', price: 4000, weight: '200 gr', calories: 38, image: 'https://images.unsplash.com/photo-1700150618387-3f46b6d2cf8e?w=400' },
+      { id: 114, name: 'Kacang panjang', amount: '100g', price: 3000, weight: '100 gr', calories: 31, image: 'https://images.unsplash.com/photo-1700150618387-3f46b6d2cf8e?w=400' },
+      { id: 3, name: 'Wortel', amount: '1 buah', price: 2000, weight: '100 gr', calories: 41, image: image_29ecbe8dcef35c1e523e487c270c9e52277db922 },
+      { id: 105, name: 'Santan', amount: '300ml', price: 5000, weight: '300 ml', calories: 138, image: 'https://images.unsplash.com/photo-1700150618387-3f46b6d2cf8e?w=400' },
+      { id: 119, name: 'Tempe', amount: '100g', price: 3000, weight: '100 gr', calories: 193, image: 'https://images.unsplash.com/photo-1700150618387-3f46b6d2cf8e?w=400' },
+      { id: 14, name: 'Bawang merah', amount: '3 siung', price: 2000, weight: '15 gr', calories: 6, image: image_c11264d4e508e1a7c1c5e0bf10ed78a7dc139800 },
+      { id: 13, name: 'Bawang putih', amount: '2 siung', price: 1000, weight: '10 gr', calories: 15, image: image_603797fb557af7c252d4ab417b14b2124fdf0394 },
+    ],
+    steps: [
+      'Tumis bawang merah dan bawang putih hingga harum',
+      'Masukkan santan, didihkan',
+      'Masukkan labu siam dan wortel, masak hingga setengah empuk',
+      'Tambahkan kacang panjang dan tempe',
+      'Masak hingga semua sayuran matang',
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
       'Sajikan hangat',
     ]
   },
   'indo-4': {
+<<<<<<< HEAD
     name: 'Pempek',
     image: pempekImage,
     time: '25 menit',
@@ -213,6 +292,27 @@ const menusData: Record<string, any> = {
       'Rebus pempek hingga mengapung',
       'Buat kuah cuko dari cuka, cabai, dan gula',
       'Sajikan pempek dengan kuah cuko',
+=======
+    name: 'Ayam bakar',
+    image: image_ec3385c6cb101cc7e4d0b6e4d2bb67850250ef1e,
+    time: '30 menit',
+    servings: 2,
+    ingredients: [
+      { id: 6, name: 'Daging ayam', amount: '500g', price: 20000, weight: '500 gr', calories: 825, image: image_b77cb6cbd47949991c6fe75c43f887d268feb4d7 },
+      { id: 104, name: 'Bumbu bakar', amount: '1 pack', price: 8000, weight: '50 gr', calories: 30, image: 'https://images.unsplash.com/photo-1712579733874-c3a79f0f9d12?w=400' },
+      { id: 13, name: 'Bawang putih', amount: '5 siung', price: 3000, weight: '25 gr', calories: 37, image: image_603797fb557af7c252d4ab417b14b2124fdf0394 },
+      { id: 14, name: 'Bawang merah', amount: '5 siung', price: 3000, weight: '25 gr', calories: 11, image: image_c11264d4e508e1a7c1c5e0bf10ed78a7dc139800 },
+      { id: 102, name: 'Kecap manis', amount: '3 sdm', price: 4000, weight: '45 ml', calories: 75, image: 'https://images.unsplash.com/photo-1712579733874-c3a79f0f9d12?w=400' },
+      { id: 103, name: 'Minyak goreng', amount: '1 sdm', price: 1000, weight: '15 ml', calories: 120, image: 'https://images.unsplash.com/photo-1712579733874-c3a79f0f9d12?w=400' },
+    ],
+    steps: [
+      'Haluskan bawang putih, bawang merah, dan bumbu bakar',
+      'Lumuri ayam dengan bumbu halus dan kecap manis',
+      'Diamkan 30 menit agar bumbu meresap',
+      'Bakar ayam di atas panggangan dengan api sedang',
+      'Balik sesekali hingga matang dan kecokelatan',
+      'Sajikan dengan sambal dan lalapan',
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
     ]
   },
   // Western
@@ -225,7 +325,11 @@ const menusData: Record<string, any> = {
       { id: 120, name: 'Ikan dori', amount: '300g', price: 35000, weight: '300 gr', calories: 270, image: image_6c593a579f259f85a915fae8d751c6e963626504 },
       { id: 111, name: 'Kentang', amount: '300g', price: 6000, weight: '300 gr', calories: 231, image: image_6c593a579f259f85a915fae8d751c6e963626504 },
       { id: 121, name: 'Tepung roti', amount: '100g', price: 5000, weight: '100 gr', calories: 395, image: image_6c593a579f259f85a915fae8d751c6e963626504 },
+<<<<<<< HEAD
       { id: 8, name: 'Telur', amount: '1 butir', price: 1750, weight: '1 butir', calories: 74, image: 'https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?w=400' },
+=======
+      { id: 8, name: 'Telur', amount: '1 butir', price: 3000, weight: '1 butir', calories: 74, image: 'https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?w=400' },
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
       { id: 103, name: 'Minyak goreng', amount: '200ml', price: 8000, weight: '200 ml', calories: 1600, image: image_6c593a579f259f85a915fae8d751c6e963626504 },
       { id: 113, name: 'Garam', amount: '1 sdt', price: 500, weight: '5 gr', calories: 0, image: image_6c593a579f259f85a915fae8d751c6e963626504 },
       { id: 122, name: 'Lemon', amount: '1 buah', price: 3000, weight: '50 gr', calories: 15, image: image_6c593a579f259f85a915fae8d751c6e963626504 },
@@ -247,7 +351,11 @@ const menusData: Record<string, any> = {
       { id: 123, name: 'Selada', amount: '100g', price: 5000, weight: '100 gr', calories: 15, image: 'https://images.unsplash.com/photo-1677653805080-59c57727c84e?w=400' },
       { id: 4, name: 'Tomat cherry', amount: '50g', price: 4000, weight: '50 gr', calories: 9, image: 'https://images.unsplash.com/photo-1570543375343-63fe3d67761b?w=400' },
       { id: 124, name: 'Timun', amount: '50g', price: 2000, weight: '50 gr', calories: 8, image: 'https://images.unsplash.com/photo-1677653805080-59c57727c84e?w=400' },
+<<<<<<< HEAD
       { id: 3, name: 'Wortel', amount: '1 buah', price: 4500, weight: '100 gr', calories: 41, image: image_29ecbe8dcef35c1e523e487c270c9e52277db922 },
+=======
+      { id: 3, name: 'Wortel', amount: '1 buah', price: 2000, weight: '100 gr', calories: 41, image: image_29ecbe8dcef35c1e523e487c270c9e52277db922 },
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
       { id: 125, name: 'Dressing salad', amount: '2 sdm', price: 4000, weight: '30 ml', calories: 60, image: 'https://images.unsplash.com/photo-1677653805080-59c57727c84e?w=400' },
       { id: 27, name: 'Keju parmesan', amount: '20g', price: 9000, weight: '20 gr', calories: 86, image: 'https://images.unsplash.com/photo-1677653805080-59c57727c84e?w=400' },
     ],
@@ -289,10 +397,17 @@ const menusData: Record<string, any> = {
     time: '30 menit',
     servings: 2,
     ingredients: [
+<<<<<<< HEAD
       { id: 5, name: 'Daging sapi', amount: '400g', price: 70400, weight: '400 gr', calories: 1000, image: image_8937f82399b8cfaa09cf64a16025a083fa220631 },
       { id: 111, name: 'Kentang', amount: '200g', price: 4000, weight: '200 gr', calories: 154, image: image_29859fab246ca6fdc4fe45f7ac1b77a098575e9b },
       { id: 131, name: 'Brokoli', amount: '100g', price: 5000, weight: '100 gr', calories: 34, image: image_29859fab246ca6fdc4fe45f7ac1b77a098575e9b },
       { id: 3, name: 'Wortel', amount: '1 buah', price: 4500, weight: '100 gr', calories: 41, image: image_29ecbe8dcef35c1e523e487c270c9e52277db922 },
+=======
+      { id: 5, name: 'Daging sapi', amount: '400g', price: 40000, weight: '400 gr', calories: 1000, image: image_8937f82399b8cfaa09cf64a16025a083fa220631 },
+      { id: 111, name: 'Kentang', amount: '200g', price: 4000, weight: '200 gr', calories: 154, image: image_29859fab246ca6fdc4fe45f7ac1b77a098575e9b },
+      { id: 131, name: 'Brokoli', amount: '100g', price: 5000, weight: '100 gr', calories: 34, image: image_29859fab246ca6fdc4fe45f7ac1b77a098575e9b },
+      { id: 3, name: 'Wortel', amount: '1 buah', price: 2000, weight: '100 gr', calories: 41, image: image_29ecbe8dcef35c1e523e487c270c9e52277db922 },
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
       { id: 13, name: 'Bawang putih', amount: '4 siung', price: 2000, weight: '20 gr', calories: 30, image: image_603797fb557af7c252d4ab417b14b2124fdf0394 },
       { id: 132, name: 'Mentega', amount: '50g', price: 8000, weight: '50 gr', calories: 359, image: image_29859fab246ca6fdc4fe45f7ac1b77a098575e9b },
       { id: 133, name: 'Black pepper', amount: '1 sdt', price: 2000, weight: '5 gr', calories: 6, image: image_29859fab246ca6fdc4fe45f7ac1b77a098575e9b },

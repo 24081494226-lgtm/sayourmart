@@ -9,10 +9,13 @@ import image_ec3385c6cb101cc7e4d0b6e4d2bb67850250ef1e from 'figma:asset/ec3385c6
 import image_56eafd6ed45a4ee444a9cab04044655616affa86 from 'figma:asset/56eafd6ed45a4ee444a9cab04044655616affa86.png';
 import image_5134056c76798182e7f596c554aee799907d54b7 from 'figma:asset/5134056c76798182e7f596c554aee799907d54b7.png';
 import image_eea60db063d80254cd19281065c6a14b550cc8e6 from 'figma:asset/eea60db063d80254cd19281065c6a14b550cc8e6.png';
+<<<<<<< HEAD
 import telurBaladoImage from '../../imports/telur_balado.jpeg';
 import ayamSuwirImage from '../../imports/ayam_suwir.jpeg';
 import pempekImage from '../../imports/pempek.jpeg';
 import taichanImage from '../../imports/taichan.jpeg';
+=======
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
 import { ArrowLeft, Clock, ShoppingCart } from 'lucide-react';
 
 interface MenuListProps {
@@ -30,16 +33,26 @@ const menuData = {
       { id: 'menu-1', name: 'Nasi goreng', time: '20 menit', difficulty: 'Mudah', image: image_6dca1efe68f1eb2fe8434d8caa2ea1099ba536eb, servings: 2 },
       { id: 'menu-2', name: 'Ayam bakar', time: '30 menit', difficulty: 'Sedang', image: image_ec3385c6cb101cc7e4d0b6e4d2bb67850250ef1e, servings: 2 },
       { id: 'menu-3', name: 'Rendang', time: '45 menit', difficulty: 'Sedang', image: image_06c7015f8dca06a233e709c4f14d89d53b5fd176, servings: 3 },
+<<<<<<< HEAD
       { id: 'menu-4', name: 'Ayam Suwir', time: '20 menit', difficulty: 'Mudah', image: ayamSuwirImage, servings: 1 },
+=======
+      { id: 'menu-4', name: 'Soto ayam', time: '35 menit', difficulty: 'Mudah', image: image_a165bb4f4874b4988e080d0d7c891bae646092ac, servings: 2 },
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
     ],
   },
   'indonesian': {
     title: 'Indonesian Menu',
     items: [
       { id: 'indo-1', name: 'Ayam goreng ketumbar', time: '25 menit', difficulty: 'Mudah', image: image_eea60db063d80254cd19281065c6a14b550cc8e6, servings: 2 },
+<<<<<<< HEAD
       { id: 'indo-2', name: 'Telur Balado', time: '15 menit', difficulty: 'Mudah', image: telurBaladoImage, servings: 1 },
       { id: 'indo-3', name: 'Sate Taichan', time: '20 menit', difficulty: 'Mudah', image: taichanImage, servings: 2 },
       { id: 'indo-4', name: 'Pempek', time: '25 menit', difficulty: 'Sedang', image: pempekImage, servings: 2 },
+=======
+      { id: 'indo-2', name: 'Pecel', time: '15 menit', difficulty: 'Mudah', image: image_5134056c76798182e7f596c554aee799907d54b7, servings: 1 },
+      { id: 'indo-3', name: 'Sayur lodeh', time: '20 menit', difficulty: 'Mudah', image: image_56eafd6ed45a4ee444a9cab04044655616affa86, servings: 2 },
+      { id: 'indo-4', name: 'Ayam bakar', time: '30 menit', difficulty: 'Sedang', image: image_ec3385c6cb101cc7e4d0b6e4d2bb67850250ef1e, servings: 2 },
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
     ],
   },
   'western': {

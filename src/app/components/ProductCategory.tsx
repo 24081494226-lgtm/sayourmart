@@ -29,10 +29,13 @@ import image_4560d596d36e8455e711628a1829fb8e62c4d121 from 'figma:asset/4560d596
 import image_1094ff46fa170eca670f0ac2b034bee3b03256d5 from 'figma:asset/1094ff46fa170eca670f0ac2b034bee3b03256d5.png';
 import image_c49bd7acfdf679b99949d9c20bab84fe9c98ca51 from 'figma:asset/c49bd7acfdf679b99949d9c20bab84fe9c98ca51.png';
 import image_fac6bf36af9cbb6388a2a27c2c05bb062791b298 from 'figma:asset/fac6bf36af9cbb6388a2a27c2c05bb062791b298.png';
+<<<<<<< HEAD
 import telurBaladoImage from '../../imports/telur_balado.jpeg';
 import ayamSuwirImage from '../../imports/ayam_suwir.jpeg';
 import pempekImage from '../../imports/pempek.jpeg';
 import taichanImage from '../../imports/taichan.jpeg';
+=======
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
 import { ShoppingCart, Search, ChevronDown, ChevronUp, Heart } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { Button } from './ui/button';
@@ -62,6 +65,7 @@ const categories = [
 
 const products = [
   // Sayuran
+<<<<<<< HEAD
   { id: 1, name: 'Bayam segar', category: 'sayur', price: 3500, weight: '250 gr', calories: 58, image: image_4560d596d36e8455e711628a1829fb8e62c4d121 },
   { id: 2, name: 'Kangkung', category: 'sayur', price: 3500, weight: '250 gr', calories: 19, image: image_1094ff46fa170eca670f0ac2b034bee3b03256d5 },
   { id: 3, name: 'Wortel', category: 'sayur', price: 4500, weight: '1 pcs', calories: 30, image: image_29ecbe8dcef35c1e523e487c270c9e52277db922 },
@@ -79,11 +83,31 @@ const products = [
   { id: 11, name: 'Pisang Cavendish', category: 'buah', price: 9000, weight: '1 pcs', calories: 100, image: image_ef1ae0612dc6936c79895a524578b72bf4a2e1bb },
   { id: 12, name: 'Anggur Hijau', category: 'buah', price: 37500, weight: '250 gr', calories: 172, image: image_b15248d82c52f3da35e16c05dd6b4f3a2830719f },
 
+=======
+  { id: 1, name: 'Bayam segar', category: 'sayur', price: 15000, weight: '250 gr', calories: 58, image: image_4560d596d36e8455e711628a1829fb8e62c4d121 },
+  { id: 2, name: 'Kangkung', category: 'sayur', price: 12000, weight: '250 gr', calories: 19, image: image_1094ff46fa170eca670f0ac2b034bee3b03256d5 },
+  { id: 3, name: 'Wortel', category: 'sayur', price: 8000, weight: '1 pcs', calories: 30, image: image_29ecbe8dcef35c1e523e487c270c9e52277db922 },
+  { id: 4, name: 'Tomat Cherry', category: 'sayur', price: 20000, weight: '250 gr', calories: 45, image: image_c49bd7acfdf679b99949d9c20bab84fe9c98ca51 },
+  
+  // Protein
+  { id: 5, name: 'Daging sapi', category: 'protein', price: 50000, weight: '250 gr', calories: 625, image: image_8937f82399b8cfaa09cf64a16025a083fa220631 },
+  { id: 6, name: 'Daging ayam', category: 'protein', price: 20000, weight: '250 gr', calories: 413, image: image_89fa3a72412266abab0720d3bd14cc6cf3669483 },
+  { id: 7, name: 'Ikan salmon', category: 'protein', price: 102000, weight: '250 gr', calories: 365, image: image_a4f57ecefeec6d74f2ca30f3dc7aa9a4ab89c6bc },
+  { id: 8, name: 'Telur ayam', category: 'protein', price: 12000, weight: '4 butir', calories: 296, image: image_fac6bf36af9cbb6388a2a27c2c05bb062791b298 },
+  
+  // Buah-buahan
+  { id: 9, name: 'Apel Fuji', category: 'buah', price: 10000, weight: '1 pcs', calories: 52, image: image_aa3e39080b8801ac0f316681020c6da79a9433c6 },
+  { id: 10, name: 'Jeruk Sunkist', category: 'buah', price: 7000, weight: '1 pcs', calories: 80, image: image_7419fbe7223bc41fd362b229255dcc6128254582 },
+  { id: 11, name: 'Pisang Cavendish', category: 'buah', price: 4000, weight: '1 pcs', calories: 100, image: image_ef1ae0612dc6936c79895a524578b72bf4a2e1bb },
+  { id: 12, name: 'Anggur Hijau', category: 'buah', price: 37500, weight: '250 gr', calories: 172, image: image_b15248d82c52f3da35e16c05dd6b4f3a2830719f },
+  
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
   // Bumbu Dapur
   { id: 13, name: 'Bawang putih', category: 'bumbu', price: 5000, weight: '100 gr', calories: 149, image: image_603797fb557af7c252d4ab417b14b2124fdf0394 },
   { id: 14, name: 'Bawang merah', category: 'bumbu', price: 7000, weight: '100 gr', calories: 42, image: image_c11264d4e508e1a7c1c5e0bf10ed78a7dc139800 },
   { id: 15, name: 'Cabe merah', category: 'bumbu', price: 10000, weight: '100 gr', calories: 318, image: image_01c67b151870856c1a3ae0da3a3287fdc79cb5d6 },
   { id: 16, name: 'Jahe', category: 'bumbu', price: 6000, weight: '100 gr', calories: 80, image: image_158af8bfb47845e91c5e0b389967c23d1710c66f },
+<<<<<<< HEAD
 
   // Camilan
   { id: 29, name: 'Cireng kuah keju', category: 'camilan', price: 15000, weight: '1 porsi', calories: 280, image: image_820afc144247d548bf3988ac46fa615187d551a2 },
@@ -103,6 +127,27 @@ const products = [
   { id: 23, name: 'Sate Taichan', category: 'indonesian', price: 20000, weight: '10 tusuk', calories: 280, image: taichanImage, ingredients: ['Daging ayam', 'Bawang putih', 'Cabai rawit', 'Jeruk nipis', 'Kecap asin', 'Garam'] },
   { id: 24, name: 'Pempek', category: 'indonesian', price: 25000, weight: '1 porsi', calories: 350, image: pempekImage, ingredients: ['Ikan tenggiri', 'Tepung sagu', 'Telur', 'Bawang putih', 'Garam', 'Cuka', 'Cabai'] },
 
+=======
+  
+  // Camilan
+  { id: 29, name: 'Cireng kuah keju', category: 'camilan', price: 15000, weight: '1 porsi', calories: 280, image: image_820afc144247d548bf3988ac46fa615187d551a2 },
+  { id: 30, name: 'Udang keju goreng', category: 'camilan', price: 22000, weight: '1 porsi', calories: 320, image: image_9d2a2581fa84f6261149b248819628a209db4453 },
+  { id: 31, name: 'Korean corn dog', category: 'camilan', price: 18000, weight: '1 pcs', calories: 350, image: image_21d38c9165b80064bd003c0d7943d2b88890692a },
+  { id: 32, name: 'Mozzarella stick', category: 'camilan', price: 20000, weight: '1 porsi', calories: 290, image: 'https://images.unsplash.com/photo-1734774924912-dcbb467f8599?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3p6YXJlbGxhJTIwc3RpY2slMjBzbmFja3xlbnwxfHx8fDE3NjQzODQ2MjR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral' },
+  
+  // Set Menu
+  { id: 17, name: 'Nasi goreng', category: 'set-menu', price: 35000, weight: '1 porsi', calories: 550, image: image_6dca1efe68f1eb2fe8434d8caa2ea1099ba536eb, ingredients: ['Nasi putih', 'Telur', 'Ayam', 'Bawang putih', 'Bawang merah', 'Kecap manis', 'Minyak goreng'] },
+  { id: 18, name: 'Ayam bakar', category: 'set-menu', price: 42000, weight: '1 porsi', calories: 450, image: image_d58c630a72463e0ae12388121aa2005741a2044d, ingredients: ['Ayam', 'Bumbu bakar', 'Bawang putih', 'Bawang merah', 'Kecap manis', 'Minyak goreng', 'Kecap manis'] },
+  { id: 19, name: 'Rendang', category: 'set-menu', price: 48000, weight: '1 porsi', calories: 520, image: image_06c7015f8dca06a233e709c4f14d89d53b5fd176, ingredients: ['Daging sapi', 'Santan', 'Bumbu rendang', 'Cabai merah', 'Bawang merah', 'Bawang putih', 'Jahe', 'Lengkuas'] },
+  { id: 20, name: 'Soto ayam', category: 'set-menu', price: 32000, weight: '1 porsi', calories: 350, image: image_a165bb4f4874b4988e080d0d7c891bae646092ac, ingredients: ['Ayam', 'Kunyit', 'Bawang putih', 'Bawang merah', 'Serai', 'Daun salam', 'Kentang', 'Telur rebus'] },
+  
+  // Indonesian Menu
+  { id: 21, name: 'Ayam goreng ketumbar', category: 'indonesian', price: 38000, weight: '1 porsi', calories: 480, image: image_eea60db063d80254cd19281065c6a14b550cc8e6, ingredients: ['Ayam', 'Ketumbar', 'Bawang putih', 'Bawang merah', 'Kunyit', 'Garam', 'Minyak goreng'] },
+  { id: 22, name: 'Pecel', category: 'indonesian', price: 25000, weight: '1 porsi', calories: 280, image: image_5134056c76798182e7f596c554aee799907d54b7, ingredients: ['Kangkung', 'Bayam', 'Kacang panjang', 'Tauge', 'Bumbu pecel', 'Kacang tanah'] },
+  { id: 23, name: 'Sayur lodeh', category: 'indonesian', price: 22000, weight: '1 porsi', calories: 200, image: image_56eafd6ed45a4ee444a9cab04044655616affa86, ingredients: ['Labu siam', 'Kacang panjang', 'Wortel', 'Santan', 'Tempe', 'Bawang merah', 'Bawang putih'] },
+  { id: 24, name: 'Ayam bakar', category: 'indonesian', price: 40000, weight: '1 porsi', calories: 450, image: image_d58c630a72463e0ae12388121aa2005741a2044d, ingredients: ['Ayam', 'Bumbu bakar', 'Bawang putih', 'Bawang merah', 'Kecap manis', 'Minyak goreng'] },
+  
+>>>>>>> 337eb04feeaeae622f50aba5dd79b83f6db377a9
   // Western Menu
   { id: 25, name: 'Fish and chips', category: 'western', price: 55000, weight: '1 porsi', calories: 620, image: image_6cb4ec77b9d2538a08e32d60844fb02975536a05, ingredients: ['Ikan dori', 'Kentang', 'Tepung roti', 'Telur', 'Minyak goreng', 'Garam', 'Lemon'] },
   { id: 26, name: 'Salad', category: 'western', price: 28000, weight: '1 porsi', calories: 150, image: image_de9462c14ccde8f47e99ef30094d77f8675eb3c0, ingredients: ['Selada', 'Tomat cherry', 'Timun', 'Wortel', 'Dressing salad', 'Keju parmesan'] },
